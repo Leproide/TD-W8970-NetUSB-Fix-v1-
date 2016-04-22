@@ -6,6 +6,7 @@ A serious vulnerability affecting the NetUSB kernel driver developed by Taiwan-b
 Researchers at SEC Consult discovered that the NetUSB driver is plagued by a kernel stack buffer overflow vulnerability (CVE-2015-3036) that can be exploited by an unauthenticated attacker to execute arbitrary code or cause a denial-of-service (DoS) condition. The flaw, caused by insufficient input validation, can be triggered by specifying a computer name that is longer than 64 characters when the client connects to the server.
 
 SEC Consult has confirmed that the vulnerability affects the latest firmware versions for TP-Link TL-WDR4300 V1, TP-Link WR1043ND v2, and Netgear WNDR4500. Researchers also identified the NetUSB feature in tens of router models from D-Link, Netgear, TP-Link, TRENDnet, and ZyXEL.
+
 https://www.sec-consult.com/fxdata/seccons/prod/temedia/advisories_txt/20150519-0_KCodes_NetUSB_Kernel_Stack_Buffer_Overflow_v10.txt
 
 
@@ -18,7 +19,7 @@ Please check the firmware in the attachment.
 If you need any further help, please feel free to let me know.
 To get technical support more quickly, please go to http://www.tp-link.com/en/support/faq/
 Best Regards!
----------------------------------------------
+
 Jessie Wang
 Technical Support Engineer
 TP-LINK TECHNOLOGIES CO., LTD.
